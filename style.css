@@ -216,7 +216,7 @@ video {
     }
 
     to {
-        left: 69%;
+        left: 72%;
     }
 }
 
@@ -326,6 +326,9 @@ video {
     opacity: 1;
 }
 
+.AN {
+    width: 290px;
+}
 
 .line {
     margin: auto;
@@ -423,7 +426,7 @@ video {
     font-weight: 400;
     color: rgba(24, 84, 139, 1);
 
-    font-size: 28px;
+    font-size: 30px;
 }
 
 .lng-timerhead_lit {
@@ -433,7 +436,7 @@ video {
     font-weight: 300;
     color: rgba(24, 84, 139, 1);
 
-    font-size: 12px;
+    font-size: 14px;
 }
 
 
@@ -530,7 +533,7 @@ a {
 
 .mapheader {
     margin-top: 215px;
-    font-size: 18px;
+    font-size: 24px;
     font-family: "Noto Sans Armenian", sans-serif;
     font-weight: 400;
 }
@@ -572,8 +575,6 @@ a {
 
 .Cont {
     margin: auto;
-
-    
     margin-top: 40px;
     width: 100%;
 }
@@ -1138,5 +1139,5 @@ h1 {
 .pl {
     color: rgba(24, 84, 139, 1);
     font-family: "Noto Sans Armenian", sans-serif;
-    font-size: 10px
+    font-size: 14px
 }

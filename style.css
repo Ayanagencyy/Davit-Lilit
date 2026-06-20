@@ -2,7 +2,6 @@ body {
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
-    background-color: rgba(244, 237, 225, 1);
 }
 
 /*Fonts****************************************************************************************************************************************/
@@ -147,7 +146,7 @@ video {
     font-size: 110px;
     font-weight: 100;
     position: absolute;
-    color: rgba(50, 67, 25, 1);
+    color: rgba(24, 84, 139, 1);
     left: -35%;
     transform: translateX(-50%);
 }
@@ -173,7 +172,7 @@ video {
     font-size: 110px;
     font-weight: 100;
     position: absolute;
-    color: rgba(50, 67, 25, 1);
+    color: rgba(24, 84, 139, 1);
     left: -30%;
     transform: translateX(-50%);
     top: 25%;
@@ -190,7 +189,7 @@ video {
     font-size: 65px;
     font-weight: 100;
     position: absolute;
-    color: rgba(50, 67, 25, 1);
+    color: rgba(24, 84, 139, 1);
     left: -30%;
     transform: translateX(-50%);
     top: 26%;
@@ -225,17 +224,17 @@ video {
 
 .later {
     margin: auto;
-    background-image: url(Images/Backgraound.png);
+    background-image: url(Images/Bckgraound.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    /* margin-top: 80px; */
     max-width: 480px;
     width: 100%;
-    height: 350px;
+    height: 285px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
+    gap: 10px;
     flex-direction: column;
     text-align: center;
     color: black;
@@ -248,7 +247,10 @@ video {
 .d {
     font-family: "Great Vibes";
     font-size: 26px;
-    color: rgba(50, 67, 25, 1);
+    color: rgba(24, 84, 139, 1);
+    height: 40px;
+    margin: 0;
+    margin-bottom: 26px;
 }
 
 .later.active {
@@ -257,6 +259,8 @@ video {
 }
 
 .lng-latetext1 {
+    margin: 0;
+    margin-bottom: 15px;
     font-family: 'Kotayk';
     font-style: normal;
     font-weight: 400;
@@ -265,12 +269,14 @@ video {
     display: flex;
     align-items: center;
     text-align: center;
-    color: rgba(50, 67, 25, 1);
+    color: rgba(24, 84, 139, 1);
+
 }
 
 .lng-latetext2 {
-    /* margin-top: 27px; */
-    color: rgba(50, 67, 25, 1);
+    margin: 0;
+    color: rgba(24, 84, 139, 1);
+
     font-family: "Noto Sans Armenian", sans-serif;
     transform: translateY(-5%);
     font-size: 13px;
@@ -286,6 +292,9 @@ video {
     opacity: 0;
     transition: 1s;
 }
+.imgs1 {
+    max-width: 480px;
+}
 
 .imgs.active {
     transform: translateY(0);
@@ -295,9 +304,22 @@ video {
 
 .line {
     margin: auto;
+    margin-top: -70px;
+
     overflow: hidden;
     max-width: 480px;
     width: 100%;
+    height: 285px;
+}
+
+.line1 {
+    margin: auto;
+    /* margin-top: -70px; */
+position: relative;
+z-index: 2;
+    overflow: hidden;
+    max-width: 480px;
+    width: 118%;
     height: 285px;
 }
 
@@ -332,12 +354,14 @@ video {
     letter-spacing: 5px;
     font-family: "Inter", sans-serif;
     /* margin-bottom: 15px; */
-    color: rgba(50, 67, 25, 1);
+    color: rgba(24, 84, 139, 1);
+
     font-weight: 100;
 }
 
 .timeName {
-    color: rgba(50, 67, 25, 1);
+    color: rgba(24, 84, 139, 1);
+
     font-size: 12px;
     font-family: "KotaykR";
     font-weight: 100;
@@ -374,7 +398,8 @@ video {
     margin-bottom: 2px;
     font-family: "Noto Sans Armenian", sans-serif;
     font-weight: 400;
-    color: rgba(50, 67, 25, 1);
+    color: rgba(24, 84, 139, 1);
+
     font-size: 28px;
 }
 
@@ -383,7 +408,8 @@ video {
     margin-bottom: 25px;
     font-family: "Noto Sans Armenian", sans-serif;
     font-weight: 300;
-    color: rgba(61, 82, 30, 0.6);
+    color: rgba(24, 84, 139, 1);
+
     font-size: 12px;
 }
 
@@ -392,16 +418,16 @@ video {
 
 .maps {
     margin: -130px auto -80px;
-    background-image: url(Images/map_background.png);
+    /* background-image: url(Images/map_background.png); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     text-align: center;
     max-width: 480px;
     width: 100%;
-    height: 1000px;
+    /* height: 1000px; */
     z-index: 12;
-    color: rgba(61, 82, 30, 1);
+    color: rgba(24, 84, 139, 1);
 }
 
 .place {
@@ -453,10 +479,10 @@ video {
 }
 
 .card {
-    display: flex !important;
+    /* display: flex !important;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; */
     opacity: 0;
     transform: translateY(-5%);
     transition: 1s;
@@ -469,18 +495,18 @@ a {
 
 .map {
     text-align: center;
-    border: 1px solid rgba(61, 82, 30, 1);
+    border: 1px solid rgba(24, 84, 139, 1);
     padding: 8px 0px;
     border-radius: 10px;
     width: 180px;
     margin-top: 10px;
     font-size: 12px;
     margin-bottom: 18px;
-    color: rgba(61, 82, 30, 1);
+    color: rgba(24, 84, 139, 1);
 }
 
 .mapheader {
-    margin-top: 330px;
+    margin-top: 215px;
     font-size: 18px;
     font-family: "Noto Sans Armenian", sans-serif;
     font-weight: 400;
@@ -507,7 +533,7 @@ a {
 .imp {
     margin: -48px 0 0 0;
     text-align: center;
-    color: rgba(61, 82, 30, 0.6);
+    color: rgba(24, 84, 139, 1);
     font-family: "Noto Sans Armenian", sans-serif;
     font-weight: 300;
     font-size: 20px;
@@ -515,7 +541,7 @@ a {
 
 .imp1 {
     text-align: center;
-    color: rgba(61, 82, 30, 0.6);
+    color: rgba(24, 84, 139, 1);
     font-family: "Noto Sans Armenian", sans-serif;
     font-weight: 300;
     font-size: 12px;
@@ -545,8 +571,8 @@ a {
     margin: auto;
     background-color: transparent;
     border-radius: 6px;
-    color: rgba(61, 82, 30, 1);
-    border: rgba(61, 82, 30, 1) 1px solid;
+    color: rgba(24, 84, 139, 1);
+    border: rgba(24, 84, 139, 1) 1px solid;
 }
 
 .TG {
@@ -559,19 +585,48 @@ a {
 
 /*********************************************************************************************************************/
 
+.W {
+    position: relative;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 420px;
+    margin: 15px auto;
+    border: 1px #5C2018 solid;
+    border-radius: 12px;
+    padding: 10px 0;
+    opacity: 0;
+    transform: translateY(-10%);
+    transition: 0.5s;
+
+}
+
+.W.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#w {
+    display: block;
+    width: 95%;
+    border-radius: 12px;
+}
+
+/***/
+
 .inp {
     /* Input */
-    position: relative;
-    z-index: 2;
+
     box-sizing: border-box;
 
-    width: 290px;
+    width: 360px;
     height: 40px;
 
     background: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(61, 82, 30, 1);
+    border: 1px solid rgba(24, 84, 139, 0.2);
     border-radius: 12px;
-    border-color: #5C201833;
+    /* border-color: #5C201833; */
     /* Inside auto layout */
     flex: none;
     flex-grow: 0;
@@ -579,8 +634,7 @@ a {
 }
 
 .inp:focus {
-
-    outline-color: rgba(61, 82, 30, 1);
+    outline-color: rgba(154, 200, 243, 1);
     border-color: transparent;
 }
 
@@ -590,18 +644,16 @@ a {
 }
 
 .inp:not(:placeholder-shown) {
-    border-color: rgba(61, 82, 30, 1);
+    border-color: rgba(24, 84, 139, 0.2);
 }
 
 p {
-    position: relative;
-    z-index: 2;
     text-align: center;
 }
 
 .rad:checked+label {
-    border: 1px solid rgba(61, 82, 30, 1);
-    color: rgba(61, 82, 30, 1);
+    border: 1px solid rgba(154, 200, 243, 1);
+    color: rgba(24, 84, 139, 1);
 }
 
 .rad {
@@ -609,13 +661,11 @@ p {
 }
 
 .att {
-    position: relative;
-    z-index: 2;
-    max-width: 290px;
+    max-width: 360px;
     width: 100%;
     height: 50px;
     display: flex;
-    gap: 15px;
+    gap: 30px;
     justify-content: center;
     align-items: center;
 
@@ -625,21 +675,20 @@ p {
     /* Component 2 */
     transition: 0.3s;
     box-sizing: border-box;
-    position: relative;
-    z-index: 2;
+
     /* Auto layout */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    max-width: 130px;
+    max-width: 165px;
     width: 100%;
     height: 46px;
-    font-size: 12px;
+
     background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #5C201833;
-    color: #5C201833;
+    border: 1px solid rgba(24, 84, 139, 0.2);
+    color: rgba(24, 84, 139, 0.7);
     border-radius: 12px;
 
     /* Inside auto layout */
@@ -649,50 +698,28 @@ p {
 
 }
 
-.back_box {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 380px;
-    gap: 12px;
-    max-width: 420px;
-}
-
-
-.back {
-    max-width: 420px;
-    margin-top: 12px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 420px;
-    z-index: 1;
-}
-
 
 .block {
     /* Form */
     position: relative;
-    z-index: 2;
-    margin: 40px auto 0%;
+    z-index: 12;
+    margin: auto;
     box-sizing: border-box;
+
     /* Auto layout */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
-    gap: 26px;
+    gap: 24px;
 
-    max-width: 480px;
+    max-width: 450px;
     width: 100%;
-    height: 580px;
+    height: 566px;
 
-    /* background: rgba(255, 255, 255, 0.6);
-    border: 1px solid rgba(92, 32, 24, 0.1); */
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(92, 32, 24, 0.1);
     border-radius: 16px;
 
     /* Inside auto layout */
@@ -705,11 +732,10 @@ p {
 
 .btn {
     /* Rectangle 29 */
-    position: relative;
-    z-index: 2;
     border-color: transparent;
     font-size: 16px;
-    background-color: rgba(61, 82, 30, 1);
+    background-color: rgba(24, 84, 139, 1);
+
     border-radius: 12px;
     max-width: 360px;
     width: 100%;
@@ -727,13 +753,13 @@ p {
 } */
 
 .rd {
-    max-width: 325px;
+    max-width: 360px;
     width: 100%;
 }
 
 .h {
     font-size: 24px;
-    color: rgba(61, 82, 30, 1);
+    color: #5C2018;
     font-family: "Noto Sans Armenian", sans-serif;
     font-weight: 600;
 }
@@ -745,11 +771,32 @@ p {
     /* font-weight: 600; */
     font-family: "Noto Sans Armenian", sans-serif;
 
-    color: rgba(61, 82, 30, 1);
+    color: rgba(24, 84, 139, 1);
+
 }
 
 h1 {
     text-align: center;
+}
+
+
+.alert {
+    margin: 30px auto 10px;
+    max-width: 380px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid rgba(189, 217, 243, 1);
+    border-radius: 10px;
+    background-color: #5C201814;
+    color: rgba(24, 84, 139, 1);
+}
+
+
+.palert {
+    font-size: 11px;
 }
 
 /*Ayan*/
@@ -814,6 +861,15 @@ h6 {
     color: #A1A1AA63;
 }
 
+.links {
+    margin: auto;
+    gap: 5px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .foot {
     transform: translateY(-50%);
     opacity: 0;
@@ -836,35 +892,14 @@ h6 {
 }
 
 
-.alert {
-    font-family: "Noto Serif Armenian";
-
-    margin: 30px auto 10px;
-    max-width: 380px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    border: 1px solid rgba(91, 97, 66, 0.15);
-    border-radius: 10px;
-    /* background-color: transparent; */
-    color: rgba(91, 97, 66, 1);
-}
-
-
-.palert {
-    font-size: 11px;
-}
-
 /**********************************************************************/
 
 .imgs1 {
-    margin: 0;
+    margin: auto;
     width: 100%;
     display: grid;
     place-items: center;
-    background: #f3efe6;
+    /* background: #f3efe6; */
     overflow: hidden;
     font-family: sans-serif;
 }
@@ -882,7 +917,7 @@ h6 {
     left: -20%;
     width: 140%;
     height: 90px;
-    background: #7b8063;
+    /* background: #7b8063; */
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -892,6 +927,7 @@ h6 {
 .ribbon-a {
     top: 40%;
     transform: rotate(-28deg);
+    background: rgba(0, 117, 255, 0.13);
 }
 
 .ribbon-b {
@@ -904,13 +940,13 @@ h6 {
     display: flex;
     width: max-content;
     white-space: nowrap;
-    color: rgba(232, 230, 217, 1);
+    color: rgba(24, 84, 139, 1);
     animation: marquee 12s linear infinite;
 }
 
 .track.reverse {
     animation-direction: reverse;
-    color: rgba(91, 97, 66, 0.57);
+    color: rgba(24, 84, 139, 1);
 }
 
 .track span {
@@ -954,7 +990,7 @@ h6 {
 
 .au {
     position: fixed;
-    z-index: 1;
+    z-index: 1000;
     top: 85%;
     left: 80%;
     margin: auto;
@@ -1020,19 +1056,9 @@ h6 {
 
 .h {
     font-size: 24px;
-    color: rgba(61, 82, 30, 1);
+    color: rgba(24, 84, 139, 1);
     font-family: "NorKirk";
     font-weight: 600;
-}
-
-.t {
-    text-align: start;
-    margin: 5px 0;
-    font-size: 12px;
-    /* font-weight: 600; */
-    font-family: "Noto Sans Armenian", sans-serif;
-
-    color: rgba(61, 82, 30, 1);
 }
 
 h1 {

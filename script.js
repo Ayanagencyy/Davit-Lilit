@@ -152,7 +152,7 @@ const anim4 = document.querySelector('.au');
 
 // });
 
-const targetDate = new Date('2026-06-19T00:00:00');
+const targetDate = new Date('2026-09-15T00:00:00');
 
 function calculateTimeLeft() {
     const difference = targetDate - new Date();

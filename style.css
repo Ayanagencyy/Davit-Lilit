@@ -288,7 +288,7 @@ video {
 
 .imgs {
     margin: auto;
-    max-width: 400px;
+    max-width: 380px;
     transform: translateY(-10%);
     opacity: 0;
     transition: 1s;
@@ -571,6 +571,9 @@ a {
 }
 
 .Cont {
+    margin: auto;
+
+    
     margin-top: 40px;
     width: 100%;
 }

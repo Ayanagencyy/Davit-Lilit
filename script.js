@@ -129,9 +129,9 @@ disableScroll();
 
 const video = document.querySelector('video');
 
-// const anim1 = document.querySelector('.welcome');
-const anim2 = document.querySelector('.Saf');
-const anim3 = document.querySelector('.Oneder');
+const anim1 = document.querySelector('.Top');
+const anim2 = document.querySelector('.And');
+const anim3 = document.querySelector('.Bottom');
 const anim4 = document.querySelector('.au');
 // const anim5 = document.querySelector('.h-img');
 // const anim6 = document.querySelector('.date-text');
@@ -232,7 +232,7 @@ startScreen.addEventListener('click', async () => {
 
 video1.addEventListener('ended', () => {
 
-    // anim1.classList.add('act');
+    anim1.classList.add('act');
     anim2.classList.add('act');
     anim3.classList.add('act');
     anim4.classList.add('act');

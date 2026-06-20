@@ -110,21 +110,22 @@ video {
     display: block;
 }
 
-.welcome {
+/* 
+.Top {
     max-width: 280px;
     width: 100%;
     position: absolute;
     top: -20%;
     left: 50%;
     transform: translateX(-50%);
-}
-
+} */
+/* 
 .welcome_img {
     width: 280px;
     height: 100px;
-}
+} */
 
-.welcome.act {
+.Top.act {
     animation: 1s Welcome forwards linear;
 }
 
@@ -138,11 +139,12 @@ video {
     }
 }
 
-.Saf {
+.Top {
+    top: 13%;
     margin: 0;
     padding: 0;
-    font-family: "Adska", sans-serif;
-    font-size: 140px;
+    font-family: "Great Vibes", cursive;
+    font-size: 110px;
     font-weight: 100;
     position: absolute;
     color: rgba(50, 67, 25, 1);
@@ -150,7 +152,7 @@ video {
     transform: translateX(-50%);
 }
 
-.Saf.act {
+.Top.act {
     animation: 1s Safira forwards linear;
 }
 
@@ -160,34 +162,61 @@ video {
     }
 
     to {
-        left: 45%;
+        left: 40%;
     }
 }
 
-.Oneder {
+.Bottom {
     margin: 0;
     padding: 0;
-    font-family: "Adska", sans-serif;
-    font-size: 75px;
+    font-family: "Great Vibes", cursive;
+    font-size: 110px;
     font-weight: 100;
     position: absolute;
     color: rgba(50, 67, 25, 1);
     left: -30%;
     transform: translateX(-50%);
-    top: 21%;
+    top: 25%;
 }
 
-.Oneder.act {
+.Bottom.act {
     animation: 1s Oneder forwards linear;
+}
+
+.And {
+    margin: 0;
+    padding: 0;
+    font-family: "Great Vibes", cursive;
+    font-size: 65px;
+    font-weight: 100;
+    position: absolute;
+    color: rgba(50, 67, 25, 1);
+    left: -30%;
+    transform: translateX(-50%);
+    top: 17%;
+}
+
+.And.act {
+    animation: 1s And forwards linear;
 }
 
 @keyframes Oneder {
     from {
-        left: -30%;
+        left: 150%;
     }
 
     to {
-        left: 63%;
+        left: 50%;
+    }
+}
+
+@keyframes And {
+    from {
+        left: 150%;
+    }
+
+    to {
+        left: 60%;
     }
 }
 
@@ -926,7 +955,7 @@ h6 {
 .au {
     position: fixed;
     z-index: 1;
-    top:85%;
+    top: 85%;
     left: 80%;
     margin: auto;
     /* margin-top: 30px; */
@@ -1009,4 +1038,3 @@ h6 {
 h1 {
     text-align: center;
 }
-

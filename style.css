@@ -941,6 +941,7 @@ h6 {
 }
 
 .scene {
+    margin-top: -40px;
     position: relative;
     max-width: 480px;
     width: 100%;

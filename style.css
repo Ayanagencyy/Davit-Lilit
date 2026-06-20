@@ -193,7 +193,7 @@ video {
     color: rgba(50, 67, 25, 1);
     left: -30%;
     transform: translateX(-50%);
-    top: 17%;
+    top: 26%;
 }
 
 .And.act {
@@ -216,7 +216,7 @@ video {
     }
 
     to {
-        left: 60%;
+        left: 69%;
     }
 }
 

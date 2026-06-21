@@ -288,7 +288,7 @@ video {
 
 .imgs {
     margin: auto;
-    max-width: 380px;
+    max-width: 400px;
     transform: translateY(-10%);
     opacity: 0;
     transition: 1s;
@@ -532,7 +532,7 @@ a {
 }
 
 .mapheader {
-    margin-top: 215px;
+    margin-top: 170px;
     font-size: 24px;
     font-family: "Noto Sans Armenian", sans-serif;
     font-weight: 400;

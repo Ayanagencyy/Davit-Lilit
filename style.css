@@ -288,7 +288,7 @@ video {
 
 .imgs {
     margin: auto;
-    max-width: 400px;
+    max-width: 450px;
     transform: translateY(-10%);
     opacity: 0;
     transition: 1s;
